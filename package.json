@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tusharchandel567/html_css_web/issues"
   },
-  "homepage": "https://github.com/tusharchandel567/html_css_web#readme"
+  "homepage": "https://github.com/tusharchandel567/html_css_web#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+  }
 }

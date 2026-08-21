@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Template</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .brand-title {
+            font-weight: bold;
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header {
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 25px;
+            display: flex;
+            justify-content: space-around;
+            background-color:  blue;
+            color: white;
+        }
+        nav span {
+            margin-right: 25px;
+        }
+        article {
+            background-color:black;
+            font-size: 25px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        .bi-lightning-fill {
+            color: yellow;
+            font-size: 30px;
+        }
+        section {
+            height: 500px;
+            background-image: url('./public/images/lion.jpg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            padding: 25px;
+            grid-template: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        }
+        .footer-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .footer-brand-title {
+            font-weight: bold;
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 10px;
+        }
+        .footer-title~span {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .footer-brand-title~div span {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Shopper.</span>
+        </div>
+        <nav>
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>docs</span>
+        </nav>
+        <div class="shortcut-buttons">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-cart"></span>
+            <span class="bi bi-heart"></span>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>Happy Holiday deals</span>
+        <span class="bi bi-lightning-fill"></span>
+    </article>
+    <section>
+
+    </section>
+    <footer>
+        <div>
+        <div class="footer-brand-title">
+            SHOPPER
+        </div>
+        <div>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-instagram"></span>
+        </div>
+        </div>
+        <div>
+            <div class="footer-title">Support</div>
+            <span>FAQs</span>
+            <span>Size Guide</span>
+            <span>Shipping & Returns</span>
+        </div>
+        <div>
+            <div class="footer-title">Company</div>
+            <span>About Us</span>
+            <span>Contact Us</span>
+            <span>Careers</span>
+        </div>
+        <div>
+            <div class="footer-title">Shopper</div>
+            <span>Gift Cards</span>
+            <span>Find a Store</span>
+            <span>Newsletter</span>
+        </div>
+        <div>
+            <div class="footer-title">Legal</div>
+            <span>Privacy Policy</span>
+            <span>Terms of Service</span>
+        </div>
+    </footer>
+</body>
+</html>
