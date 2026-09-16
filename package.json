@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/tusharchandel567/html_css_web#readme",
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"
   }
 }
