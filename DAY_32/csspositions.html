@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-icons.css">
+    <style>
+        .count {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+        button {
+            position: relative;
+        }
+        .fashion {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-image: url('../public/images/lion.jpg.jpg');
+            background-color: lightgray;
+            background-size: cover;
+            position: relative;
+        }
+        .offer {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+<button class="btn btn-primary mt-3"> <span class="bi bi-bell-fill"></span>Notifications <span class="count">4</span></button>
+<div class="fashion">
+    <div class="offer">Offer 30%</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      color: blue;
+      font-size: 20px;
+    }
+
+    .inherit {
+      color: inherit;
+    }
+
+    .initial {
+      color: initial;
+    }
+
+    .unset {
+      color: unset;
+    }
+
+    .box {
+      border: 2px solid black;
+      padding: 15px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="box inherit">
+      INHERIT → Takes the parent's blue color
+    </div>
+
+    <div class="box initial">
+      INITIAL → Resets color to its initial value
+    </div>
+
+    <div class="box unset">
+      UNSET → Inherits color because color is inheritable
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!--Structural Pseudo Clases
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li:nth-child(odd){
+            background-color: red;
+        }
+        li:nth-child(even){
+            background-color: green;
+        }
+        li:first-child{
+            color: white;
+            font-size: 20px;
+        }
+        li:last-child{
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>  
+        <li>item6</li>
+        <li>item7</li>
+        <li>item8</li>
+        <li>item9</li>
+        <li>item10</li>
+    </ol>
+</body>
+</html>
+-->
+
+<!--//Attribute selectors 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            background-color: red;
+            color: white;
+        }
+        input[type="password"]{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <dl>
+            <dt>User name</dt>
+            <dd><input type="text" name="username" placeholder="Enter your username"></dd>
+            <dt>Password</dt>
+            <dd><input type="password" name="password" placeholder="Enter your password"></dd>
+        </dl>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+-->
+
+<!--conditions-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Effects{
+            color: red;
+            font-size: 20px;
+        }
+        .ParaEffects{
+            color: green;
+            font-size: 20px;
+        }
+        .EffectsPara{
+            color: blue;
+            font-size: 20px;
+        }
+        .TextEffectsPara{
+            color: yellow;
+            font-size: 20px;
+        }
+        .Effects.Para{
+            color: orange;
+            font-size: 20px;
+        }
+        .Effects-Para{
+            color: pink;
+            font-size: 20px;
+        }
+        .Para-Effects{
+            color: purple;
+            font-size: 20px;
+        }
+        .Para.Effects{
+            color: brown;
+            font-size: 20px;
+        }
+        .Para.Effects.Text{
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p class="Effects">Para-1</p>
+    <p class="ParaEffects">Para-2</p>
+    <p class="EffectsPara">Para-3</p>
+    <p class="TextEffectsPara">Para-4</p>
+    <p class="Effects Para">Para-5</p>
+    <p class="Effects-Para">Para-6</p>
+    <p class="Para-Effects">Para-7</p>
+    <p class="Para Effects">Para-8</p>
+    <p class="Para Effects Text">Para-9</p>
+</body>
+</html>
